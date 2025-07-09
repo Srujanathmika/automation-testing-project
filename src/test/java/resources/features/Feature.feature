@@ -1,7 +1,10 @@
-Feature: Navigation Feature
+Feature: Landing Page Verification
 
-  Scenario: Open the site and click on Signup/Login
-    Given I open the browser
-    When I navigate to "https://automationexercise.com"
-    And I click on "Signup / Login" link
-    Then I should see the page title contains "Login"
+  Scenario: Verify elements on the landing page
+    Given user navigates to the landing page
+    Then user should see the Home icon
+    And user should see the Products icon
+    And user should see the Contact Us icon
+    And user should see the Signup/Login icon
+    And user should see the Cart icon
+
