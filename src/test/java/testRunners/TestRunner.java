@@ -14,7 +14,7 @@ import org.junit.runner.RunWith;
                 "json:target/cucumber-report.json",       //  JSON report (optional but useful)
                 "junit:target/cucumber-report.xml"        //  JUnit XML report (for CI tools)
         },
-        tags = "",                                         //  You can use @tag to run specific tests
+        tags = "@Landing_Page",                                         //  You can use @tag to run specific tests
         monochrome = true                                  //  Cleaner console output
 )
 public class TestRunner {
