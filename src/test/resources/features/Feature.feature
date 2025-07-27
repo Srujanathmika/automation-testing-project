@@ -6,6 +6,6 @@ Feature: Landing Page Verification
     Then user should see the Home icon
     And user should see the Products icon
     And user should see the Contact us icon
-    And user should see the Signup/Login icon
+    And user should see the Signup / Login icon
     And user should see the Cart icon
 
