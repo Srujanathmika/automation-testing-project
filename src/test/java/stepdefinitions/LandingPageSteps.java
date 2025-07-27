@@ -23,6 +23,6 @@ public class LandingPageSteps extends Baseclass {
         Assert.assertTrue(iconText + " icon is not visible", iconElement.isDisplayed());
 
         // Optional: Print result for logging
-        System.out.println( "   "+iconText + " icon is visible on the landing page.");
+        System.out.println( "The "+iconText + " icon is visible on the landing page.");
     }
 }
