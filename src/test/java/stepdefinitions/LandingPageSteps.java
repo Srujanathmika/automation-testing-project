@@ -25,4 +25,26 @@ public class LandingPageSteps extends Baseclass {
         // Optional: Print result for logging
         System.out.println( "The "+iconText + " icon is visible on the landing page.");
     }
+    @ Given("^user clicks on (.+) Button$")
+    public void user_clicks_on_Button(String Signup_Login) {
+        String Xpath = "//a[normalize-space(text()='"+Signup_Login+"')]";
+
+    }
+
+
+    @Then("^user navigates to (.+) action$")
+    public void user_navigates_to_action(String New_User_Signup) {
+
+    }
+
+    @And("^user enters (.+) in the textbox$")
+    public void user_enters_data_in_textbox(String Data){
+
+    }
+
+    @Then("^user clicks on (.+) Action")
+        public void user_clicks_on_Action(String Action){
+
+    }
+
 }
